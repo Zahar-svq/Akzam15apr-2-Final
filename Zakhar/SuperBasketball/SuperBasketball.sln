@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperBasketball", "SuperBasketball\SuperBasketball.csproj", "{16553CA0-4957-4F43-8DA1-E0B4D0AB8567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathFunctions", "MathFunctions\MathFunctions.csproj", "{500F5292-FD81-4647-951A-51168D3B9B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulTest", "ModulTest\ModulTest.csproj", "{5F88090E-7DEB-4FA1-A223-830760C384F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16553CA0-4957-4F43-8DA1-E0B4D0AB8567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16553CA0-4957-4F43-8DA1-E0B4D0AB8567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16553CA0-4957-4F43-8DA1-E0B4D0AB8567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16553CA0-4957-4F43-8DA1-E0B4D0AB8567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{500F5292-FD81-4647-951A-51168D3B9B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500F5292-FD81-4647-951A-51168D3B9B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500F5292-FD81-4647-951A-51168D3B9B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500F5292-FD81-4647-951A-51168D3B9B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F88090E-7DEB-4FA1-A223-830760C384F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F88090E-7DEB-4FA1-A223-830760C384F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F88090E-7DEB-4FA1-A223-830760C384F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F88090E-7DEB-4FA1-A223-830760C384F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

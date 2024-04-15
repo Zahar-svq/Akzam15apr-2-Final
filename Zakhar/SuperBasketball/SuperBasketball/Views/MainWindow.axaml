@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:SuperBasketball.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="SuperBasketball.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="avares://SuperBasketball/Assert/logo1.ico"
+        Title="SuperBasketball">
+
+    <Canvas>
+        <Canvas Top="100" Left="100">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="Логин" FontSize="20" Margin="5"/>
+                <TextBox Name="LoginTextBox" FontSize="20" Margin="5"/>
+                <TextBlock Text="Пароль" FontSize="20" Margin="5"/>
+                <TextBox Name="PasswordTextBox" FontSize="20" Margin="5"/>
+                <Button Name="SignIn" Content="Вход" Click="SignIn_OnClick" FontSize="20" Margin="20"/>
+            </StackPanel>
+        </Canvas>
+    </Canvas>
+</Window>

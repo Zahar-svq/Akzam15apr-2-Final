@@ -1,0 +1,7 @@
+/home/user/RiderProjects/SuperBasketball/SuperBasketball/obj/Debug/net8.0/SuperBasketball.csproj.AssemblyReference.cache
+/home/user/RiderProjects/SuperBasketball/SuperBasketball/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+/home/user/RiderProjects/SuperBasketball/SuperBasketball/obj/Debug/net8.0/Avalonia/resources
+/home/user/RiderProjects/SuperBasketball/SuperBasketball/obj/Debug/net8.0/SuperBasketball.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/RiderProjects/SuperBasketball/SuperBasketball/obj/Debug/net8.0/SuperBasketball.AssemblyInfoInputs.cache
+/home/user/RiderProjects/SuperBasketball/SuperBasketball/obj/Debug/net8.0/SuperBasketball.AssemblyInfo.cs
+/home/user/RiderProjects/SuperBasketball/SuperBasketball/obj/Debug/net8.0/SuperBasketball.csproj.CoreCompileInputs.cache

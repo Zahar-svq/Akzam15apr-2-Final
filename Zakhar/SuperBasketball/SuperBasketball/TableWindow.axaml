@@ -1,0 +1,43 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="clr-namespace:SuperBasketball.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="SuperBasketball.TableWindow"
+        Icon="Assert/logo1.ico"
+        Title="TableWindow">
+     <Canvas>
+        <Canvas Top="5" Left="5">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Поиск" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+                <TextBox Name="SearchTextBox" TextChanged="SearchTextBox_OnTextChanged" Width="250" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+                <ComboBox Name="FilterComboBox" SelectionChanged="FilterComboBox_OnSelectionChanged" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5">
+                    <DataTemplate x:DataType="models:Position">
+                        <TextBlock Text="{Binding Name}"/>
+                    </DataTemplate>
+                </ComboBox>
+                <Button Name="AddItem" Content="+" Click="AddItem_OnClick" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+                <Button Name="DeleteItem" Content="-" Click="DeleteItem_OnClick" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+            </StackPanel>
+        </Canvas>
+        
+        <Canvas Top="100">
+            <DataGrid Name="MainDataGrid" Height="400" x:DataType="models:Player">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Имя игрока" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="Позиция" Binding="{Binding Position}"/>
+                    <DataGridTextColumn Header="Вес" Binding="{Binding Mass}"/>
+                    <DataGridTextColumn Header="Рост" Binding="{Binding Height}"/>
+                    <DataGridTextColumn Header="Дата рождения" Binding="{Binding Birthday}"/>
+                    <DataGridTextColumn Header="Дата начала игры" Binding="{Binding DateStart}"/>
+                    <DataGridTextColumn Header="Команда" Binding="{Binding Team}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Canvas>
+        
+        <Canvas Bottom="50" Left="100">
+            <TextBlock Name="InfoTextBox"/>
+        </Canvas>
+    </Canvas>
+</Window>
